@@ -1,0 +1,9 @@
+{
+  "display_name": "我的记账本",
+  "bundle_identifier": "xyz.698239.myaccountingapp",
+  "flutter_version": "3.38.7",
+  "xcode_version": "26.2",
+  "minimum_ios": "15.0",
+  "edition": "basic",
+  "screenshot_recognition": false
+}
