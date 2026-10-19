@@ -1,0 +1,855 @@
+{
+  "format": "accounting.ios_source",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "f6888e242023fd081f5cc698e9f8b6fd5afc4baf9a7ccb6b61f1f93cb6cbc54e"
+    },
+    {
+      "path": ".metadata",
+      "sha256": "ddad3e2716a4ff175a1365dad399fa751fa9712d60f208962fa758b8da7a8f60"
+    },
+    {
+      "path": "analysis_options.yaml",
+      "sha256": "b63207cf529949ec4727b68c23dbb38ce255b6f6f4ae1effcb5c1dcf2852d238"
+    },
+    {
+      "path": "assets/voice/zh-14m/decoder-epoch-99-avg-1.onnx",
+      "sha256": "5ee0f03a2768ff1d5c83ef3a493243c7935d316cd41280037b14783a3467cc78"
+    },
+    {
+      "path": "assets/voice/zh-14m/encoder-epoch-99-avg-1.int8.onnx",
+      "sha256": "1c556ea57cec304e55ec4b72e52c1cc098bb01476ed7d90f3de939fe126487b1"
+    },
+    {
+      "path": "assets/voice/zh-14m/joiner-epoch-99-avg-1.int8.onnx",
+      "sha256": "a7cf9d82757bdcf786059454495a9ca95e4bd7347f72473fc08d794475c36169"
+    },
+    {
+      "path": "assets/voice/zh-14m/LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "assets/voice/zh-14m/README.md",
+      "sha256": "5572394badea749ce7cfe1bbaa8b4ce751aec42d77a916ffa36c885a103c3b13"
+    },
+    {
+      "path": "assets/voice/zh-14m/tokens.txt",
+      "sha256": "8b294db9045d6e5f94647f4c1eec1af4da143a75053c399611444b378ff966ac"
+    },
+    {
+      "path": "codemagic.yaml",
+      "sha256": "2bbb9436fbc644c00c1ee3ab0b46c9a6cc0ca848d1170727518aaa1fd9d14355"
+    },
+    {
+      "path": "docs/iOS云构建与测试-20261018.md",
+      "sha256": "af63afe9e5dc0ed3a51728c7adb1628d1fba7f979e3d8cef95fcd416be5dc429"
+    },
+    {
+      "path": "docs/iOS准备与验证-20261018.json",
+      "sha256": "bfec89763648c8adc2e15e9e9a0cd3d48588ffd81ac2f41047e328cd84c55f41"
+    },
+    {
+      "path": "docs/iOS基础版准备与验证-20261019.json",
+      "sha256": "0b9a7ec1026279332b6001e7a83b8f2da16571ade9c7f6a4af8aaeb7475da0ae"
+    },
+    {
+      "path": "docs/iOS基础版更新与构建-20261019.md",
+      "sha256": "2349b054f049ec6f34a0107cd251b9d03a4369fc7c1f65c715eae21ceab7753c"
+    },
+    {
+      "path": "docs/iPhone测试清单.md",
+      "sha256": "f5b3f84391a38baf1bd8d933d25fd1e25780dab5dd3a7dc3f0cce1e2fe2e3f93"
+    },
+    {
+      "path": "docs/两版APK体积与验证-20261019.json",
+      "sha256": "0977f56289beb3bf9712957f550c8332ec28d95b8af9f3a0ad359c99d598cf89"
+    },
+    {
+      "path": "docs/云登录与同步接入.md",
+      "sha256": "2a8d5bc02cddab3dcddcfecf091dc5be4eabf100b41bcab5b7c3ae39d17c491a"
+    },
+    {
+      "path": "docs/功能更新与验证-20261013.md",
+      "sha256": "c7ceef74a965cba66d9c0fb5a28272b387700017b4f93ba7e4272d4fc64bba1d"
+    },
+    {
+      "path": "docs/功能更新与验证-20261014.md",
+      "sha256": "dccdd01e01acd9bef28bea30307863e98ae88b3f90be46e9a35e885d2d475629"
+    },
+    {
+      "path": "docs/加密云同步-20261016.md",
+      "sha256": "5169fc574d21bac57c456ba4d2c0e38f43e10aad100e4a3c8cbda13d17719d8b"
+    },
+    {
+      "path": "docs/历史关联同步修复-20261017.md",
+      "sha256": "4ef84aec04d1e1b92314a31645a5d5fc3aa7f04c1bfd7aabf1d9a74ccaf687ac"
+    },
+    {
+      "path": "docs/基础版昵称修复-20261019.md",
+      "sha256": "b23bb230357087362507b6f380142d210384792c61ddba1019be4a7914ea17e6"
+    },
+    {
+      "path": "docs/截图识别与语音交互-20261019.md",
+      "sha256": "30733ad4c6a1c9795e64de2d9ceaf82368ffe4227f169242b866d6d25370450e"
+    },
+    {
+      "path": "docs/本地同步与加密-20261015.md",
+      "sha256": "aab59f8ef4c5d3708fc5c378618a5542423a71574a346601f428b796ce0ab93f"
+    },
+    {
+      "path": "docs/本版验证与同步设计.md",
+      "sha256": "6d722ae1ab360cd232ad630d80304977d6b9a4d54e92ab5e588efb4e4a025cb8"
+    },
+    {
+      "path": "docs/界面与余额联动-20261017.md",
+      "sha256": "ad0f21c2f9b376d285df7322954f05f4f53037b83a9f2e9612d668ed975660fc"
+    },
+    {
+      "path": "docs/表格导入与数据安全-20261018.md",
+      "sha256": "5c6644098adf121cd8046619670717cacb92c56c52b5a7d7613e6a0d34947bf6"
+    },
+    {
+      "path": "docs/表格导入与邮箱备份验证-20261018.json",
+      "sha256": "fc04f840ab1175a751eacd317379cfeef8a1b252826d3cb420b81dcd676e218a"
+    },
+    {
+      "path": "docs/轻量语音与图片记账方案-20261019.md",
+      "sha256": "6dc22f8d96a49b5d6e4c742be8bca8147fd7822303f01ab2a6474f58ed78117b"
+    },
+    {
+      "path": "docs/邮箱验证与发信检查-20261019.json",
+      "sha256": "4b148cb99f4096722204ed4fffe22f1d1eb66829683a57ff7c22d30a56a90946"
+    },
+    {
+      "path": "docs/邮箱验证与软件发信-20261019.md",
+      "sha256": "d6acce9a32ae3c998329201efb7c564fbc37fd7fd9fba717d6bbbe31d92e7bdd"
+    },
+    {
+      "path": "docs/邮箱验证码注册与发信-20261019.md",
+      "sha256": "e0a97d5f8f59f0434dcea765d3dbdc8d8ab106a91128d416e20c6c963e5b8593"
+    },
+    {
+      "path": "ios/.gitignore",
+      "sha256": "e85b4db8ba6ed14708e5f7d3c60336e5a3067ce11329b84aa8ba5d98603ee253"
+    },
+    {
+      "path": "ios/Flutter/AppFrameworkInfo.plist",
+      "sha256": "289df97969a2207084e1da8e010aed364a7f72bdc74b53091faa0727fbb631fd"
+    },
+    {
+      "path": "ios/Flutter/Debug.xcconfig",
+      "sha256": "690b8a8b1ae15ddd29b241429963e971bbc6720ab22f154cf8cf6b085b6d4925"
+    },
+    {
+      "path": "ios/Flutter/Profile.xcconfig",
+      "sha256": "39e5af3d86b4237fb20118e827f2689e127fbc1360d5b1828b44c1b8560eafda"
+    },
+    {
+      "path": "ios/Flutter/Release.xcconfig",
+      "sha256": "75abb819a9de1e0e41c835e7307bc64a506cac25a9a5c0b0d8253fa1c3d5d422"
+    },
+    {
+      "path": "ios/Podfile",
+      "sha256": "3c98914f90c094fea4e9d15650f32917e1d6a97516618a8f56e3d2c579b86f08"
+    },
+    {
+      "path": "ios/Runner/AppDelegate.swift",
+      "sha256": "b4ec16d3bcc4e4b0a8fc4da17bdf67a935bbba0f78342134df251281fa1c00d6"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json",
+      "sha256": "5f8b941b774bde4496d73347c1f79cbdd786bb76fbdab9ed1f3f0cb78a0fb0d3"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+      "sha256": "7770183009e914112de7d8ef1d235a6a30c5834424858e0d2f8253f6b8d31926"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png",
+      "sha256": "cab10a0d391ec5bc09ef50ce49e8ad401cee7ef03707ec0923a222c5c2b3d212"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png",
+      "sha256": "b9ad02cf6576a04d1b6806ac02a2431481b448dd0c2e505ce25842d1f7c4730b"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png",
+      "sha256": "c6e6d3b215ae744a9c391f4c4d44157eff5e739d6ad6c39f9bfa5df66dddd267"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png",
+      "sha256": "5dee24dc104ac76dc162e42ae0beb163d426bf365562ee28ba7b3ad368559a60"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png",
+      "sha256": "a9b21eb6f4271385655a8771f76e29eef8c1107d7879cbcfc567e6619d1f716a"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png",
+      "sha256": "e677d701ffe4af7bc2935098d6b3984cc9ab7ace573e6900955a5535b12410cf"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png",
+      "sha256": "b9ad02cf6576a04d1b6806ac02a2431481b448dd0c2e505ce25842d1f7c4730b"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png",
+      "sha256": "7c61c42fc7b657d9cf314d32a4ec458f0647c3aaf360be1b9377857266ec2499"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png",
+      "sha256": "19be171481dc71a0b2803ebcd01dd8b0c5fd5778dee34c0a3cabc948c225f24e"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png",
+      "sha256": "19be171481dc71a0b2803ebcd01dd8b0c5fd5778dee34c0a3cabc948c225f24e"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png",
+      "sha256": "4209a49e44a92ec40a327d3455eb1b1c153ee83d75de1c2be0a12ab18b2ff9de"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png",
+      "sha256": "836c918cb613249eba0483a6b02fa3df3c1c0a89a315ee4d3b88509b83c7ab73"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png",
+      "sha256": "41c7d42f6e61f8fe7f30b1ffa2256aecbc9682be06d18c4a3062043e1a2e547c"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png",
+      "sha256": "5d7e5bdf01b93802bc973345b3a78c038907147625035952a08a115a563b7f81"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json",
+      "sha256": "fbd112a9f3b541a1d811f71ac8e4fe68b6176687d973a5f4d99b7aa4a722e94e"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png",
+      "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png",
+      "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png",
+      "sha256": "93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20"
+    },
+    {
+      "path": "ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md",
+      "sha256": "853ac958e2416fe2540f6f61165283a3618b71a7ba5f85f65ac41c2158dfcd21"
+    },
+    {
+      "path": "ios/Runner/Base.lproj/LaunchScreen.storyboard",
+      "sha256": "bc3644fbb251ff1e18de25a4932c927850ae1a025be3dd1447940429633fe4b2"
+    },
+    {
+      "path": "ios/Runner/Base.lproj/Main.storyboard",
+      "sha256": "dcea4686c02065e56217fd19fcfb73d7509b41872e7486126149d47a18559363"
+    },
+    {
+      "path": "ios/Runner/Info.plist",
+      "sha256": "b761e231d9e2101cb1a26234f971b6878db73f6115522823989dbd4bf72b88ee"
+    },
+    {
+      "path": "ios/Runner/PrivacyInfo.xcprivacy",
+      "sha256": "96affb6769cce1019d8c9ade6bbde1ad1fca4d00392c788ca8eafa9ce1103037"
+    },
+    {
+      "path": "ios/Runner/Runner-Bridging-Header.h",
+      "sha256": "efe657d8b27f7f8595a0d416bffb33fe7d93bd2869d81f7353b556c439d7a1a7"
+    },
+    {
+      "path": "ios/Runner/Runner.entitlements",
+      "sha256": "05b0c8fa856e4cccfec746f277352008a02b5804003b869ad66ead8cb2e01814"
+    },
+    {
+      "path": "ios/Runner.xcodeproj/project.pbxproj",
+      "sha256": "35d72e52f02e1c11ddfac9b04b48eba4ee951c6666decba77c03ae522f79f9ae"
+    },
+    {
+      "path": "ios/Runner.xcodeproj/project.xcworkspace/contents.xcworkspacedata",
+      "sha256": "ac28b35c2b940210bec0fff8e424b07fd0efe9112ab178a10533583f251a386c"
+    },
+    {
+      "path": "ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "sha256": "d557c2c32fc6258ec28981fa45dc847b76c9968beb90a2e26d13ef9c4ea45c30"
+    },
+    {
+      "path": "ios/Runner.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings",
+      "sha256": "dd64c0308ab2971c456871b990b24a008bdc3ece09833e8dbe9675e33a496e74"
+    },
+    {
+      "path": "ios/Runner.xcodeproj/xcshareddata/xcschemes/Runner.xcscheme",
+      "sha256": "570c49fd61c67330efb75097018d1b0df0c68d03667631105a5acf5621112b1b"
+    },
+    {
+      "path": "ios/Runner.xcworkspace/contents.xcworkspacedata",
+      "sha256": "706a4c812f2a1e220e6785c27580020d58048e2ae4d30d1280f3c43344ce6b38"
+    },
+    {
+      "path": "ios/Runner.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist",
+      "sha256": "d557c2c32fc6258ec28981fa45dc847b76c9968beb90a2e26d13ef9c4ea45c30"
+    },
+    {
+      "path": "ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings",
+      "sha256": "dd64c0308ab2971c456871b990b24a008bdc3ece09833e8dbe9675e33a496e74"
+    },
+    {
+      "path": "ios/RunnerTests/RunnerTests.swift",
+      "sha256": "c0e04141287eb7f9c9f3d31cf5be8cb626a9ea71351206c9121578e8b8f480c3"
+    },
+    {
+      "path": "lib/components/category_style.dart",
+      "sha256": "a5297004434ae66ba84b0821697041a70b92a9b7ee128452e7e903255d09212d"
+    },
+    {
+      "path": "lib/components/expense_item.dart",
+      "sha256": "de26eeba7eada85ba007d56339b225a4e396c27fa5b368d15ac10b827e9f2e52"
+    },
+    {
+      "path": "lib/components/recurring_due_banner.dart",
+      "sha256": "0c26633371237932b4f2706352737fa4e041fb143ed41b2c19c8ac2a113b6aac"
+    },
+    {
+      "path": "lib/components/recurring_reminder_control.dart",
+      "sha256": "81527dcad3b4b909f1ff0b37293e10be5dc18bb393b3b4f3a5a49b3c35e91e20"
+    },
+    {
+      "path": "lib/database/database_helper.dart",
+      "sha256": "79c8dcd9a71fd419be602f3d346457b834b74ed1e790ee6c4e5676a0d1774fad"
+    },
+    {
+      "path": "lib/database/database_test_helper.dart",
+      "sha256": "375e2a8831739e09fabcf0f6747b697081390823ac3b5b04bb08dda474daf594"
+    },
+    {
+      "path": "lib/main.dart",
+      "sha256": "4e8eb8b543b394a4f5dc5f27ebe370fc53055deae36122bca90ff27f29a09135"
+    },
+    {
+      "path": "lib/models/app_settings.dart",
+      "sha256": "261fad0a08ecf46106a03e8ced499fef7321c559836ea2b83008657edb947b0a"
+    },
+    {
+      "path": "lib/models/asset_account.dart",
+      "sha256": "ed735677fe6f7bdb0117e30b141a5c0dbc4d663c0c265c2ad564d00ff6caade3"
+    },
+    {
+      "path": "lib/models/budget.dart",
+      "sha256": "4337e010ee1d12a90d504a3cd28fd3e8352fc078668e57bc6e64ea2f1cae6ebf"
+    },
+    {
+      "path": "lib/models/category.dart",
+      "sha256": "977f62087d399d6d5ee2468eca0bb15f1188310963e726809b4d59a40cc009b5"
+    },
+    {
+      "path": "lib/models/expense_record.dart",
+      "sha256": "a11c89388f20a14ec5b51a1f843d33df94780997d4607853676173f1cf04928b"
+    },
+    {
+      "path": "lib/models/full_backup.dart",
+      "sha256": "476fcb9c969b9bfb688f24b9ca84bdfaee5890275f4a26d9716de22c0e123511"
+    },
+    {
+      "path": "lib/models/import_review.dart",
+      "sha256": "cabe43e77c02f83e076b6c0916d819c2064e3b4e0f865ce51d876dd1b234f7d9"
+    },
+    {
+      "path": "lib/models/ledger.dart",
+      "sha256": "0d56c782a130977b104f33c79fb7863ff1c13fa4340942ba7a57dc248e2edcfa"
+    },
+    {
+      "path": "lib/models/recurring_bill.dart",
+      "sha256": "501743a3df49617074c2a081e47a60e0d5f9f050a825c9158842e374854ce401"
+    },
+    {
+      "path": "lib/models/refund_net.dart",
+      "sha256": "408d658d05c6a36dc90e5daa2671c8d15e3423df25688b39667e86b41cf3fd9b"
+    },
+    {
+      "path": "lib/models/settings_manager.dart",
+      "sha256": "eefb2323ba96387b019310549712888c5356616aaa9c455439a4fa6fa5869961"
+    },
+    {
+      "path": "lib/models/statistics_summary.dart",
+      "sha256": "58aac4b2bf09255c1de426a697cfd6a7025ec6546338eed2668992695618a3f0"
+    },
+    {
+      "path": "lib/models/tag.dart",
+      "sha256": "0ffeeba2a7de042bc388f3d2c583cd92c6366ba73e62c0a3bfba3660aa60d9b4"
+    },
+    {
+      "path": "lib/models/user.dart",
+      "sha256": "b5021e3d06d26e7c7d480070d03cc365003fb400a9c7202b2b60e842bab3fbce"
+    },
+    {
+      "path": "lib/pages/add_record_page.dart",
+      "sha256": "74be16610e7628214c40632820b94d4ff8643d52f7ad984ba4d1207c716768ed"
+    },
+    {
+      "path": "lib/pages/assets_page.dart",
+      "sha256": "57b14dc4491ad02a91d6926ef8592698010b6917e1bbb9632a3b4b0ce98cb90c"
+    },
+    {
+      "path": "lib/pages/budget_management_page.dart",
+      "sha256": "486644efc6e78cff7d535f33a0347a2eb16c3ec7b955f05a81016f027d860c0b"
+    },
+    {
+      "path": "lib/pages/category_management_page.dart",
+      "sha256": "fc069996080bf1595875f6baa90dfa5d8473c86de96e42832029c4b6adbf7242"
+    },
+    {
+      "path": "lib/pages/cloud_account_page.dart",
+      "sha256": "ba5933d114ccd6000d63acf29ce4a523c1e139a30a2704080d7bc3ceca7dac62"
+    },
+    {
+      "path": "lib/pages/data_import_export_page.dart",
+      "sha256": "f0a1ba2871d50a3a48597537c5c0bc3ae00fb9d43c1b937631643243c11ae075"
+    },
+    {
+      "path": "lib/pages/edit_account_page.dart",
+      "sha256": "1c0fd3eeff7531ebd43ab8397976f1d8285f6369733f59a1cf9185dbca14cda8"
+    },
+    {
+      "path": "lib/pages/full_backup_page.dart",
+      "sha256": "19c05ef54c5cd6287b9b88140d9259e3b3066c48d04535f40fe7df77915b7d15"
+    },
+    {
+      "path": "lib/pages/home_page.dart",
+      "sha256": "5cc1f5696acd28917fdd6b70b1a36096b33d63929155b450dbd46295c50125e6"
+    },
+    {
+      "path": "lib/pages/import_review_page.dart",
+      "sha256": "5f208b11b0b4c926043ca82a9ecfadedd6c01219bfbe06ddcdd8d046993cbf40"
+    },
+    {
+      "path": "lib/pages/ledger_management_dialog.dart",
+      "sha256": "68b01fdd4bf620f2c1f3510654b57c7d5964a9106424f2f588fc9cb97f0381e3"
+    },
+    {
+      "path": "lib/pages/ledger_management_page.dart",
+      "sha256": "8b999d7b3463fb441fd5193bec5b2dcb048bfd34cb9cde70ec8f3aee76093c8c"
+    },
+    {
+      "path": "lib/pages/month_picker_dialog.dart",
+      "sha256": "1323a739f90420cb1d5fce2c6d5f7e47b8c2eb2cbec056ae08fc2e05761b7b32"
+    },
+    {
+      "path": "lib/pages/platform_import_options_dialog.dart",
+      "sha256": "629e98e00796f29439513d5f65a76708fcc214bac0cb28d1b8a10891a586fc3a"
+    },
+    {
+      "path": "lib/pages/pocket_sync_page.dart",
+      "sha256": "496614d11d48a9c2933cb04f144570b69c2e19ae268bf25cea6e9fc476cd2de1"
+    },
+    {
+      "path": "lib/pages/profile_page.dart",
+      "sha256": "a352f9a1fc9959093fda6150b5a4643e491c5ac3598509c3a8be8b7b973fc809"
+    },
+    {
+      "path": "lib/pages/record_category_dialog.dart",
+      "sha256": "e65186510c269fd41901b5bc456164f19ff3963f459a4dd39fb27397056d2e5b"
+    },
+    {
+      "path": "lib/pages/recurring_bills_page.dart",
+      "sha256": "699ef0994779257c3da2d02203c8882ac858689b01fd5fbc37ea4cf158465bfd"
+    },
+    {
+      "path": "lib/pages/screenshot_record_page.dart",
+      "sha256": "eba5c73d4cc55733b20bb5602b604b150ed7631fcc896ac7627d7b787623ace3"
+    },
+    {
+      "path": "lib/pages/settings_page.dart",
+      "sha256": "acff926ddfdf6e5e42490578fa9404174d20030647e8a39e31dd3a03b6780ffc"
+    },
+    {
+      "path": "lib/pages/statistics_page.dart",
+      "sha256": "afb6a4b030176834111441fec418f55104c08d265a2485693f74ebf9379f2226"
+    },
+    {
+      "path": "lib/pages/sync_security_page.dart",
+      "sha256": "6025c8aa6bfc946fefcbd9194e3dd29c0ddc5deca2ed0bd065e8d5e3c181f400"
+    },
+    {
+      "path": "lib/pages/tag_management_page.dart",
+      "sha256": "baecc7012a0931fc997436ab4a64b70f3b0ff83397ab2d5808f02055a198d705"
+    },
+    {
+      "path": "lib/pages/voice_record_page.dart",
+      "sha256": "99ab16a303171e307242559d3bc483fa96ad94898b29de95b70e8dbc295a34dc"
+    },
+    {
+      "path": "lib/pages/voice_record_review.dart",
+      "sha256": "f35b6bb6665a28268013b7effc340f82fd366da5b559e6d14293280ead24cddc"
+    },
+    {
+      "path": "lib/services/account_balances.dart",
+      "sha256": "e054e9150a525e29270f7a8fdeb10f83ef1e29a27121e2d749c19472e064b088"
+    },
+    {
+      "path": "lib/services/asset_account_service.dart",
+      "sha256": "41687fed158b9cca23af53354ed09611553fce08b6c6a58c39f7153fd5b75005"
+    },
+    {
+      "path": "lib/services/asset_notifications.dart",
+      "sha256": "b8a5242fba9c1fd33122ebd6a05175b9d1520768d31224fe13f6df5f2c2810b7"
+    },
+    {
+      "path": "lib/services/backup_codec.dart",
+      "sha256": "293f31bedbf7b50be088c031a31961afe0a6a6f2e5a3c46aa6d4578e8fe52d52"
+    },
+    {
+      "path": "lib/services/backup_upgrade.dart",
+      "sha256": "4c8d731caee4673ee6cc12c47f1e3f785df12b095e0a31db630ecf73cd17abcf"
+    },
+    {
+      "path": "lib/services/bill_category_classifier.dart",
+      "sha256": "3e3af9ac008b674025813c50c695c728de0d684e49ba2201034ffc173ffd5ee8"
+    },
+    {
+      "path": "lib/services/bill_csv_service.dart",
+      "sha256": "c31a308594340e3f3b4481e48cc07c6de556dff927ecafec9bc0d34e1f3c2ad3"
+    },
+    {
+      "path": "lib/services/bill_file_reader.dart",
+      "sha256": "b48af5de6b1b96ce3506f24b9f2a4169973a0a0f9c43eacb2742a5867943e34e"
+    },
+    {
+      "path": "lib/services/bill_investment_filter.dart",
+      "sha256": "3a2ba759bba24a5929aaf74e3590ec8f1beabe7eb554f4c4953e1673364795b6"
+    },
+    {
+      "path": "lib/services/cloud_account_service.dart",
+      "sha256": "cab66caf289473d6ed4222190a3b3fef74e95b36cdd775ee1629309b97af958d"
+    },
+    {
+      "path": "lib/services/data_restore_notifications.dart",
+      "sha256": "faa452b5fa2db5d1493a0365c537a63dbbd6d826b8f53dcc5723102faa87d036"
+    },
+    {
+      "path": "lib/services/full_backup_service.dart",
+      "sha256": "d82b0149faec3c9ab6342b3219e451aef1cacca97006a3abaab6d6527b5d1c4e"
+    },
+    {
+      "path": "lib/services/import_review_service.dart",
+      "sha256": "5c90a27b4f05ef884c0f8d8fdda7fbb7b61784e62f94121af29b4c70cd69866f"
+    },
+    {
+      "path": "lib/services/ledger_notifications.dart",
+      "sha256": "13b340839166f0d598f51fa9f3966809bfede8de73ea9d9ebef7f58873964383"
+    },
+    {
+      "path": "lib/services/monthly_budget_service.dart",
+      "sha256": "89f541fcaea4b9f6c265909774a73e1ee1a962541b7fcab2404340b2aefbd299"
+    },
+    {
+      "path": "lib/services/named_bill_service.dart",
+      "sha256": "cc1f488a84e5ec373f73aece8863f5e0f797f91ef67bfa02dc9fabe1ee434db8"
+    },
+    {
+      "path": "lib/services/offline_chinese_recognizer.dart",
+      "sha256": "fe301a08581604fa209ec25ef3d61ef03bf0deb90a84a9b3388c7576af7e8e61"
+    },
+    {
+      "path": "lib/services/offline_voice_model.dart",
+      "sha256": "7e835aa234313517c4e983d9fb292ff6387c8ee5bd163d6f38358c4848a410dc"
+    },
+    {
+      "path": "lib/services/platform_bill_service.dart",
+      "sha256": "8c89e4ee70217875e02786f941469646dfbfd8158c6d9f54d0e55acab3a23d30"
+    },
+    {
+      "path": "lib/services/recovery_email_backup.dart",
+      "sha256": "66fcd0c6b6777778737be2f3a4bafc26c7096945a6553785ff9ca267b87ea17e"
+    },
+    {
+      "path": "lib/services/recovery_mail_sender.dart",
+      "sha256": "4c162729007fab8cc1c60c85dd48a323febc26a06e987fbe8206f874fdad4196"
+    },
+    {
+      "path": "lib/services/recurring_bill_service.dart",
+      "sha256": "f6b4fff25b2e8dcc614cbd9984a6f073c3994d76bb9194b8caac9e25218865a2"
+    },
+    {
+      "path": "lib/services/recurring_notifications.dart",
+      "sha256": "8748a4c79ae43a7c71dadc6842586f559fe8c13d81fbd7bd175a666e84d5cd97"
+    },
+    {
+      "path": "lib/services/recurring_reminder_service.dart",
+      "sha256": "00d2165aa4a77623ef31175b31e98a664437a9946357517c9c0f676198838b6f"
+    },
+    {
+      "path": "lib/services/refund_plan_service.dart",
+      "sha256": "f65b601ccd4d335cc722153fe0fe592353c166a91992ed54a40674f3215e18e8"
+    },
+    {
+      "path": "lib/services/screenshot_bill_parser.dart",
+      "sha256": "1a3714e150d317a67d9e5b9cbbeb41be0c0810d9919958220daff58296d9b99f"
+    },
+    {
+      "path": "lib/services/screenshot_recognition.dart",
+      "sha256": "8302167e670785fd657454c49ef005e7658f4744a1181a6eb31589c3fda27539"
+    },
+    {
+      "path": "lib/services/voice_bill_parser.dart",
+      "sha256": "55388a1b10487d77dac818bfa426b8d3a3374dbd8512bf7fe5edd62b3c643898"
+    },
+    {
+      "path": "lib/services/voice_recognition_service.dart",
+      "sha256": "bfc15ab7220cb764fd4a79722a6b73a5595755131e41fd98a5c785facc2739ec"
+    },
+    {
+      "path": "lib/sync/cloud_sync_store.dart",
+      "sha256": "b221f0cb02a1dd7a239f4faf336ded2af73b1c08194e4aee807f10c3fe08d208"
+    },
+    {
+      "path": "lib/sync/local_sync_repository.dart",
+      "sha256": "6049d7c8141758aa3ebc778221fd4fb8fcaf66a76573afa0aa09d2a28636d7b9"
+    },
+    {
+      "path": "lib/sync/local_sync_schema.dart",
+      "sha256": "6fe553cdb1cc55e9a56001ffe1ad479635d7fb5f39060d70e42f0e5d991e74bf"
+    },
+    {
+      "path": "lib/sync/pocket_sync_controller.dart",
+      "sha256": "641cd221acefdd6a9108d5bf506561544a1df8fa2d283ff0737c659a6938df26"
+    },
+    {
+      "path": "lib/sync/pocketbase_api.dart",
+      "sha256": "c0ccbb5ca63d330b8af868e9794165d329109f75b939c668f361fcb3159c2c81"
+    },
+    {
+      "path": "lib/sync/revision_crypto.dart",
+      "sha256": "111266dad432838842eb9eb12234500972adc9016f07f69c904c1e82dae5caf3"
+    },
+    {
+      "path": "lib/sync/sync_coordinator.dart",
+      "sha256": "5a6a51f9f266b34a9df2c62a6861cba76ee29fa4c6c06d33b057700c633a080a"
+    },
+    {
+      "path": "lib/sync/sync_edit_guard.dart",
+      "sha256": "7560d377e7b4ecd5494d5bf5660aac1515eb83608faae136459989be6d498f4a"
+    },
+    {
+      "path": "lib/sync/sync_protocol.dart",
+      "sha256": "0878b105ed637a4e1e4d7588c032460490ef58ebfd2a5e6c8d97adcf292e30fe"
+    },
+    {
+      "path": "lib/sync/vault_key_store.dart",
+      "sha256": "96827ffce6ddca576f17dafc94b4e1106915e673c071980fa80d80099952b82f"
+    },
+    {
+      "path": "lib/widgets/edit_nickname_dialog.dart",
+      "sha256": "3d3fef61d7a6b56da65fe22f75c07e034e777148bbc0de314ea15f00519e2bf5"
+    },
+    {
+      "path": "lib/widgets/email_code_dialog.dart",
+      "sha256": "a6e27c0cba03a67e6436976d115c634a5fdf993d6764c2cbbd79525c3c72aec9"
+    },
+    {
+      "path": "lib/widgets/recovery_mail_dialog.dart",
+      "sha256": "db15028a66455c0880bc66087a5944bbcfd275c0c928c40e9eee5b6f6f664f1f"
+    },
+    {
+      "path": "lib/widgets/voice_entry_button.dart",
+      "sha256": "8d508fdd575260b09a1f0663af72a65806ca14a03646583db47ac5c0f30d641d"
+    },
+    {
+      "path": "pubspec.lock",
+      "sha256": "64f07504c24e0248a211b530db916137a441ca962863be4310fa341a41b40c9a"
+    },
+    {
+      "path": "pubspec.yaml",
+      "sha256": "feb173263204f4baf5772b0ba68fa7a3dc1818e0a0b6c2860a12edbeca03907a"
+    },
+    {
+      "path": "README.md",
+      "sha256": "babc8d0aa8ba0851e31afe5b1a1f263523cca6fcd151be873871c8bf5b3433ee"
+    },
+    {
+      "path": "test/account_balances_integration_test.dart",
+      "sha256": "68c74d3b6a636f4e9078b10f93e33716027c37be32dd3b196788f5ad1083467f"
+    },
+    {
+      "path": "test/backup_codec_test.dart",
+      "sha256": "c20e0eeee87ba360428fd8981e43483ab74526355c44bf10b6d6770206ee1121"
+    },
+    {
+      "path": "test/basic_edition_test.dart",
+      "sha256": "63566b0222b78b04de985605900a6e6d74df223070d1cd2adb9d293f5386bc52"
+    },
+    {
+      "path": "test/bill_file_reader_test.dart",
+      "sha256": "c4a6b36abf750792e1674b5c490ae696db191c5c8e68809ca35cd13b108ebbd4"
+    },
+    {
+      "path": "test/bill_investment_filter_test.dart",
+      "sha256": "5cc13be5d51e5ab4e051c6e63b10ab2b2bfb9db75ad2d88016c8518cdb5b7aa6"
+    },
+    {
+      "path": "test/cloud_snapshot_test.dart",
+      "sha256": "1446738e0a071061a00256837ecc91f3a4459528885b8cf5488d5c9bb9ab9bf7"
+    },
+    {
+      "path": "test/edit_nickname_dialog_test.dart",
+      "sha256": "9ec98dd8f264c677e801c54bcf259021cbb10946d592ead8a928d619070d8a8d"
+    },
+    {
+      "path": "test/email_code_dialog_test.dart",
+      "sha256": "b3b0b5954d4e3e152c7898876f691fa6c2ab7bc6ee51402369b1c1dbfdce3d9c"
+    },
+    {
+      "path": "test/encrypted_sync_integration_test.dart",
+      "sha256": "7110f58364164e499d6c242b40b763895732f29aff098ef42c7216c604d2fc39"
+    },
+    {
+      "path": "test/full_backup_validation_test.dart",
+      "sha256": "92502aafa40501bfda7477a967bda59cb370ee1bbb49584eec4cf31faf1d727f"
+    },
+    {
+      "path": "test/import_category_classifier_test.dart",
+      "sha256": "4eef215e7f1b54efcf118ead7d7db68f0a84d5d82070f2eba300680f74b1628c"
+    },
+    {
+      "path": "test/import_review_identity_test.dart",
+      "sha256": "bf56bf14d54b6449595f4809410cb242d72198cb6ad95a41f95cf330286c0a8f"
+    },
+    {
+      "path": "test/local_sync_legacy_test.dart",
+      "sha256": "88f92ce7b72dd70df0bacff52df98dc3449cc9d73a0c784985f5b40086899645"
+    },
+    {
+      "path": "test/local_sync_sql_export_test.dart",
+      "sha256": "6b3de944b11067308a244b9b843edad1b88b0e705c91160b71597ef18196c62e"
+    },
+    {
+      "path": "test/named_bill_import_integration_test.dart",
+      "sha256": "b50670fa838e74700c9b2c48542f272698c784e25b14396e1e812ad03276fac1"
+    },
+    {
+      "path": "test/named_bill_service_test.dart",
+      "sha256": "c44a69144a8f0c2d8d7ebe43eb47e9cf0e53cbbe743f95208e32cd3473647ae1"
+    },
+    {
+      "path": "test/offline_chinese_pcm_test.dart",
+      "sha256": "a580136a4c2fe803cf7548880bfd2ededb36a5b03c43c485a4cce2d27ffc75f2"
+    },
+    {
+      "path": "test/pocketbase_session_test.dart",
+      "sha256": "2addbfa7b09800d317adeddfb2c0adcca1d6e23ea8ee47be98072be243083a9c"
+    },
+    {
+      "path": "test/recovery_email_backup_test.dart",
+      "sha256": "867dae2b9f9c2258296d1aeafda2f4efa45952d60fddcaa65985217ef24ba4f1"
+    },
+    {
+      "path": "test/recovery_mail_dialog_test.dart",
+      "sha256": "dbcb6d8cfdca697bd17e24316a200b9057389a9cebcbe789c4270efcbc56ad84"
+    },
+    {
+      "path": "test/recovery_mail_sender_test.dart",
+      "sha256": "f0db4fed88584f63e7071d1da54b01859182a691179c043568404cc4b99982c4"
+    },
+    {
+      "path": "test/recurring_bill_schedule_test.dart",
+      "sha256": "95ac193f33c698d300ac3216764164ac873babf1f1f69b7c6f50315bab559251"
+    },
+    {
+      "path": "test/refund_header_metadata_test.dart",
+      "sha256": "3503d26da5b5a846db3f68ea6d924490ee495ef170f680a1b619ec773ec13f2e"
+    },
+    {
+      "path": "test/refund_net_calculator_test.dart",
+      "sha256": "08e1c83f20d271c380f81f71615311d232d0ebd3b321e064df3146b01b9e2d09"
+    },
+    {
+      "path": "test/screenshot_bill_parser_test.dart",
+      "sha256": "04b7ecc8f02260290f6fc8395d45ce7b9266464fcc309cfbf72de8630d476b5b"
+    },
+    {
+      "path": "test/screenshot_record_page_test.dart",
+      "sha256": "85f8cd23e2290e673c3fe1863b8dcb7eb92da95128ed7b81cdb53520b7380671"
+    },
+    {
+      "path": "test/support/sql_bridge.dart",
+      "sha256": "9b7437e87bc6e1be7e21bcf4fa852ace75405001aad11ddf6a54b82456db1540"
+    },
+    {
+      "path": "test/sync_crypto_test.dart",
+      "sha256": "d4e6e500faa20022da3c860f324ccab03c87c137f69b0afd4c7692e6388f058f"
+    },
+    {
+      "path": "test/sync_security_page_test.dart",
+      "sha256": "5972e16e05b663b854fa8269e168b768cb495908fe3040669e2ef628071703d4"
+    },
+    {
+      "path": "test/user_profile_integration_test.dart",
+      "sha256": "6e92d95fa644ebb6417e4d52e0eb63f1bca66bea3d6f7fb315a4dcfd40ad7928"
+    },
+    {
+      "path": "test/voice_bill_parser_test.dart",
+      "sha256": "3bb54f934b19e9a20a8a55465fafbd8a53ad5f115e51ab0adae6a93d374d7f68"
+    },
+    {
+      "path": "test/voice_entry_button_test.dart",
+      "sha256": "6c1ce680e5826236db8edc88833bb0395285ce74040be2c94d3b4fbe53cb4bbe"
+    },
+    {
+      "path": "test/voice_recognition_lifecycle_test.dart",
+      "sha256": "59eeb631ef4137343989cb884a23a5c7e9a7ca173187ed044555a65987897a35"
+    },
+    {
+      "path": "test/widget_test.dart",
+      "sha256": "ca4e27773abd62fa2311eb01c6b02a649b4c45ba6c671cc209bea43d633e822d"
+    },
+    {
+      "path": "tools/ios/build_config.json",
+      "sha256": "f1460f82548694406f96dc9439e85ae1e4937b85b7f012b148c06b4489342ae0"
+    },
+    {
+      "path": "tools/ios/ci.py",
+      "sha256": "6fea7d95793458ddfb75d513f9c7d626e65f42cf506913665a35bd59a16c73ee"
+    },
+    {
+      "path": "tools/ios/create_signing_key.cjs",
+      "sha256": "a2c1343e9f3028a6a42408c7d8774303d654511a7c943723d7d5fc92af3afa08"
+    },
+    {
+      "path": "tools/ios/package_source.py",
+      "sha256": "0a1bc2bf7b1e45b0b9b8f9c56a875b66295e6366df9bde209381100b0280ff99"
+    },
+    {
+      "path": "tools/ios/prepare.py",
+      "sha256": "710aec381d2ff52f2fb1b004319ac94ea0f5a7819f14778a5d7d96dbbd9a45f0"
+    },
+    {
+      "path": "tools/ios/test_config.py",
+      "sha256": "f7e4b406a784b7426c05f7fea745e353c8d8adc6468f8471056e4d25f91c5318"
+    },
+    {
+      "path": "tools/ios/testflight-publishing.yaml.example",
+      "sha256": "cf339be9be26aee7fe3ae7ab32b9e832374c1a3fcc0c5d8d23b88344a995f6a0"
+    },
+    {
+      "path": "tools/ios/validate.py",
+      "sha256": "6b24ee1b51e30e48ed5a17612f7cf55d5dc35d73a84630e6a19514c8e6b10bf6"
+    },
+    {
+      "path": "tools/local_sync_sql_check.cjs",
+      "sha256": "4ba61aa3d7e8b71930c18270ac4c1c2074fb688660e2f5696b70f9679247c457"
+    },
+    {
+      "path": "tools/run_android.cmd",
+      "sha256": "bf9da9b247b53705c52bac9be322d67168e902908c29de44399dc5e274ac5806"
+    },
+    {
+      "path": "tools/update_android.cmd",
+      "sha256": "ee415a632bef2e2cfc349ce9ac1be30e12527c880ea5af29d6d26428e18b9713"
+    }
+  ],
+  "contains_personal_database": false,
+  "contains_signing_credentials": false
+}

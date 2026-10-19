@@ -1,0 +1,63 @@
+# Both workflows are started manually. Nothing is uploaded or published by default.
+workflows:
+  ios-unsigned:
+    name: iOS 基础版 - 生成未签名 IPA（自行签名）
+    instance_type: mac_mini_m2
+    max_build_duration: 60
+    environment:
+      flutter: 3.38.7
+      xcode: "26.2"
+      cocoapods: default
+      vars:
+        PUB_HOSTED_URL: https://pub.dev
+        FLUTTER_STORAGE_BASE_URL: https://storage.googleapis.com
+    cache:
+      cache_paths:
+        - ~/.pub-cache
+        - ~/Library/Caches/CocoaPods
+    scripts:
+      - name: 准备苹果工程并安装依赖
+        script: python3 tools/ios/ci.py prepare
+      - name: 检查代码并运行测试
+        script: python3 tools/ios/ci.py checks
+      - name: 编译未签名真机 IPA 及模拟器版本
+        script: python3 tools/ios/ci.py unsigned
+    artifacts:
+      - build/ios/artifacts/*.ipa
+      - build/ios/artifacts/*.zip
+      - build/ios/diagnostics/*.json
+      - /tmp/xcodebuild_logs/*.log
+
+  ios-signed:
+    name: iOS 基础版 - 签名打包（开发者账号就绪后）
+    instance_type: mac_mini_m2
+    max_build_duration: 60
+    environment:
+      flutter: 3.38.7
+      xcode: "26.2"
+      cocoapods: default
+      groups:
+        - appstore_credentials
+      vars:
+        PUB_HOSTED_URL: https://pub.dev
+        FLUTTER_STORAGE_BASE_URL: https://storage.googleapis.com
+    cache:
+      cache_paths:
+        - ~/.pub-cache
+        - ~/Library/Caches/CocoaPods
+    scripts:
+      - name: 检查签名账号配置
+        script: python3 tools/ios/ci.py credentials
+      - name: 准备苹果工程并安装依赖
+        script: python3 tools/ios/ci.py prepare
+      - name: 检查代码并运行测试
+        script: python3 tools/ios/ci.py checks
+      - name: 自动签名并生成安装包
+        script: python3 tools/ios/ci.py signed
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - build/ios/archive/*.xcarchive/dSYMs/*.dSYM
+      - build/ios/diagnostics/*.json
+      - /tmp/xcodebuild_logs/*.log
+    # This workflow only creates an IPA. See the separate publishing example
+    # after the first build succeeds and TestFlight distribution is authorized.
