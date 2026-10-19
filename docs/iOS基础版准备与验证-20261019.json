@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-19",
+  "status": "source-prepared",
+  "edition": "basic",
+  "screenshotRecognition": false,
+  "androidBase": "basic (without screenshot OCR)",
+  "bundleIdentifier": "xyz.698239.myaccountingapp",
+  "minimumIOS": "15.0",
+  "checks": {
+    "flutterPassed": 204,
+    "flutterSkipped": 3,
+    "realSqliteNicknameChecks": 4,
+    "nicknameWidgetChecks": 4,
+    "iosScriptChecksPassed": 15,
+    "sourceConfiguration": "passed",
+    "flutterAnalysisErrors": 0,
+    "flutterAnalysisPreexistingWarnings": 2
+  },
+  "nativeXcodeBuildExecuted": false,
+  "physicalIphoneTestExecuted": false,
+  "cloudAccountConfigured": false,
+  "sourceUploaded": false,
+  "ipaGenerated": false,
+  "productionServerChangedByThisUpdate": false,
+  "changes": [
+    "Nickname serialization uses only existing users table columns",
+    "Nickname saves update only username, preserving account fields",
+    "Dialog waits for persistence, prevents duplicate save, keeps input on failure",
+    "Existing user object is not changed before persistence",
+    "Current email code, encrypted sync, voice, CSV import and backup code included",
+    "All iOS build modes explicitly disable screenshot entry; no OCR native dependency"
+  ],
+  "limitations": [
+    "Windows source and script checks do not verify native iOS compilation",
+    "Physical installation, keychain, microphone, notifications and file picker still require device testing",
+    "Email delivery still depends on valid server SMTP authentication"
+  ],
+  "backup": "D:/Flutter/work/pocketbase_sync/phase2/nickname_ios_20261019/before"
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-18",
+  "status": "source-prepared",
+  "checks": {
+    "sourceConfiguration": "passed",
+    "workflowYaml": "passed",
+    "scriptTestsPassed": 12,
+    "flutterTestsPassed": 142,
+    "flutterSpecialTestsSkipped": 6,
+    "flutterAnalysisErrors": 0
+  },
+  "minimumIOS": "15.0",
+  "nativeXcodeBuildExecuted": false,
+  "physicalIphoneTestExecuted": false,
+  "cloudAccountConnected": false,
+  "codeUploaded": false,
+  "signingSecretsGenerated": false,
+  "changedFiles": [
+    ".gitignore",
+    "README.md",
+    "codemagic.yaml",
+    "docs/iOS云构建与测试-20261018.md",
+    "docs/iPhone测试清单.md",
+    "ios/Flutter/AppFrameworkInfo.plist",
+    "ios/Flutter/Debug.xcconfig",
+    "ios/Flutter/Profile.xcconfig",
+    "ios/Flutter/Release.xcconfig",
+    "ios/Podfile",
+    "ios/Runner.xcodeproj/project.pbxproj",
+    "ios/Runner/Info.plist",
+    "ios/Runner/PrivacyInfo.xcprivacy",
+    "lib/pages/add_record_page.dart",
+    "lib/pages/edit_account_page.dart",
+    "tools/ios/build_config.json",
+    "tools/ios/ci.py",
+    "tools/ios/create_signing_key.cjs",
+    "tools/ios/package_source.py",
+    "tools/ios/prepare.py",
+    "tools/ios/test_config.py",
+    "tools/ios/testflight-publishing.yaml.example",
+    "tools/ios/validate.py"
+  ],
+  "unsignedIpaPackaging": {
+    "configured": true,
+    "nativeBuildExecuted": false,
+    "output": "build/ios/artifacts/my-accounting-app-unsigned.ipa",
+    "requiresResigning": true,
+    "scriptTests": {
+      "passed": 12,
+      "addedForIpa": 3,
+      "usesSyntheticBundle": true,
+      "nativePackagingExecuted": false
+    }
+  }
+}

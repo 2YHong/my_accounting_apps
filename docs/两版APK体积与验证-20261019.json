@@ -1,0 +1,214 @@
+{
+  "date": "2026-10-19",
+  "results": {
+    "basic": {
+      "source": "D:\\Flutter\\projects\\my_accounting_app\\build\\app\\outputs\\flutter-apk\\app-arm64-v8a-basic-release.apk",
+      "packageId": "com.example.my_accounting_app",
+      "versionCode": 4003,
+      "bytes": 82433051,
+      "mib": 78.61,
+      "sha256": "b3707576f3148257725636d8ff719a451f943b6ab672afc6862fde8979874a5f",
+      "signatureMatchesPrevious": true,
+      "release": true,
+      "abi": "arm64-v8a",
+      "binary": {
+        "zipIntegrity": true,
+        "features": {
+          "填写邮箱验证码": true,
+          "说完了，核对账单": true,
+          "截图记账": false
+        },
+        "ocrEntries": [],
+        "existingVoiceAndNativeRuntime": {
+          "retained": true,
+          "checkedEntries": 11
+        }
+      },
+      "delivery": "D:\\Flutter\\work\\apk_compare_20261019\\my-accounting-basic-arm64.apk"
+    },
+    "screenshot": {
+      "source": "D:\\Flutter\\projects\\my_accounting_app\\build\\app\\outputs\\flutter-apk\\app-arm64-v8a-screenshot-release.apk",
+      "packageId": "com.example.my_accounting_app.ocrtest",
+      "versionCode": 4003,
+      "bytes": 95883634,
+      "mib": 91.44,
+      "sha256": "56734837d86f71d7735fd2fdca8be9373a18820daf14100f228afc976fe85d5f",
+      "signatureMatchesPrevious": true,
+      "release": true,
+      "abi": "arm64-v8a",
+      "binary": {
+        "zipIntegrity": true,
+        "features": {
+          "填写邮箱验证码": true,
+          "说完了，核对账单": true,
+          "截图记账": true
+        },
+        "ocrEntries": [
+          {
+            "path": "lib/arm64-v8a/libmlkit_google_ocr_pipeline.so",
+            "compressed": 11064544,
+            "uncompressed": 11064544
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_rpn_gcn.binarypb",
+            "compressed": 208,
+            "uncompressed": 276
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/aksara/aksara_page_layout_analysis_ti_rpn_gcn.binarypb",
+            "compressed": 209,
+            "uncompressed": 278
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Hani_ctc/optical/assets.extra/LabelMap.pb",
+            "compressed": 21485,
+            "uncompressed": 70403
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Hani_ctc/optical/conv_model.fb",
+            "compressed": 30543,
+            "uncompressed": 40808
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Hani_ctc/optical/lstm_model.fb",
+            "compressed": 599499,
+            "uncompressed": 891872
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Hani_ctc_cpu.binarypb",
+            "compressed": 256,
+            "uncompressed": 329
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/assets.extra/LabelMap.pb",
+            "compressed": 1521,
+            "uncompressed": 3809
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/conv_model.fb",
+            "compressed": 30829,
+            "uncompressed": 40848
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc/optical/lstm_model.fb",
+            "compressed": 181609,
+            "uncompressed": 309568
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/Latn_ctc_cpu.binarypb",
+            "compressed": 259,
+            "uncompressed": 333
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/gocr/gocr_models/line_recognition_legacy_mobile/tflite_langid.tflite",
+            "compressed": 315520,
+            "uncompressed": 315520
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/gocr/layout/line_clustering_custom_ops/model.tflite",
+            "compressed": 129612,
+            "uncompressed": 129612
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/gocr/layout/line_splitting_custom_ops/model.tflite",
+            "compressed": 114384,
+            "uncompressed": 114384
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/taser/detector/region_proposal_text_detector_tflite_vertical_mbv2_v1.bincfg",
+            "compressed": 381,
+            "uncompressed": 452
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/taser/detector/rpn_text_detector_mobile_space_to_depth_quantized_mbv2_v1.tflite",
+            "compressed": 340760,
+            "uncompressed": 340760
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/taser/rpn_text_detection_tflite_mobile_mbv2.binarypb",
+            "compressed": 143,
+            "uncompressed": 194
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.bincfg",
+            "compressed": 487,
+            "uncompressed": 1118
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.conv_model",
+            "compressed": 30535,
+            "uncompressed": 40808
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/taser/segmenter/tflite_script_detector_0.3.lstm_model",
+            "compressed": 119566,
+            "uncompressed": 161448
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/taser/taser_script_identification_tflite_mobile.binarypb",
+            "compressed": 114,
+            "uncompressed": 136
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrchinese_and_latin_mbv2_aksara_layout_gcn_mobile_engine.binarypb",
+            "compressed": 2768,
+            "uncompressed": 13181
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrchinese_and_latin_mbv2_aksara_layout_gcn_mobile_engine_ti.binarypb",
+            "compressed": 2774,
+            "uncompressed": 13186
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrchinese_and_latin_mbv2_aksara_layout_gcn_mobile_recognizer.binarypb",
+            "compressed": 208,
+            "uncompressed": 316
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrchinese_and_latin_mbv2_aksara_layout_gcn_mobile_runner.binarypb",
+            "compressed": 236,
+            "uncompressed": 334
+          },
+          {
+            "path": "assets/mlkit-google-ocr-models/taser_tflite_gocrchinese_and_latin_mbv2_aksara_layout_gcn_mobile_runner_ti.binarypb",
+            "compressed": 236,
+            "uncompressed": 337
+          },
+          {
+            "path": "play-services-mlkit-text-recognition-chinese.properties",
+            "compressed": 75,
+            "uncompressed": 126
+          },
+          {
+            "path": "play-services-mlkit-text-recognition-common.properties",
+            "compressed": 74,
+            "uncompressed": 124
+          }
+        ],
+        "existingVoiceAndNativeRuntime": {
+          "retained": true,
+          "checkedEntries": 11
+        }
+      },
+      "delivery": "D:\\Flutter\\work\\apk_compare_20261019\\my-accounting-screenshot-arm64.apk"
+    }
+  },
+  "deltaBytes": 13450583,
+  "deltaMiB": 12.83,
+  "deltaPercent": 16.32,
+  "checks": {
+    "flutterPassed": 185,
+    "flutterSkipped": 12,
+    "isolatedServerChecks": 46,
+    "physicalDeviceTested": false,
+    "realExternalMailSent": false,
+    "productionServerChanged": false
+  },
+  "notes": [
+    "Both APKs use identical release/ABI settings; screenshot edition has separate identity for side-by-side testing.",
+    "Local recognition does not upload screenshots; only explicit editor save creates a bill.",
+    "Native screenshot OCR compiled and bundled but not exercised on a physical device.",
+    "Email code registration requires deploying prepared server update and configuring SMTP.",
+    "APK size is not installed disk usage."
+  ]
+}

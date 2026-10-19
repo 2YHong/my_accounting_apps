@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-18",
+  "status": "client-verified-android-built-awaiting-physical-testing",
+  "sample": {
+    "records": 305,
+    "expenses": 298,
+    "incomes": 7,
+    "emptyDescriptionsUsingCategory": 6,
+    "repeatDuplicates": 305,
+    "sourceCopiedIntoProject": false,
+    "sourceUploaded": false
+  },
+  "checks": {
+    "flutterRegressionPassed": 158,
+    "flutterRegressionSkipped": 11,
+    "nativeSQLiteChecksPassed": 8,
+    "emailUnitAndWidgetChecksPassed": 9,
+    "analysisErrors": 0,
+    "typedExcelDateCells": "passed"
+  },
+  "nativeSQLiteScope": "Disposable in-memory SQLite databases with a token-protected localhost bridge; simulated cloud transport, no production server access.",
+  "cloudReview": {
+    "loginDoesNotClearBusinessDatabase": true,
+    "unsyncedLocalChangesProtected": true,
+    "sameObjectConflictRequiresChoice": true,
+    "projectionFailureRollsBack": true,
+    "offsiteServerBackupVerified": false,
+    "recoveryCodeResetImplemented": false,
+    "emailVerificationImplemented": false
+  },
+  "email": {
+    "opensLocalMailDraft": true,
+    "automaticSend": false,
+    "recoveryCodeSentToAccountingServer": false,
+    "actualEmailSent": false,
+    "physicalMailAppVerified": false,
+    "existingRecoveryCodeMustBeEntered": true
+  },
+  "android": {
+    "buildNumber": 2002,
+    "buildCompleted": true,
+    "coverInstallSignatureVerified": true,
+    "physicalInstallPerformed": false,
+    "actualVersionCode": 4002,
+    "bytes": 82367503,
+    "sha256": "ecc7b96e0fd009d4ed35d1c9ad08735f932ff7d4a7dbe6163086ca700954bd4c",
+    "signingCertificateSha256": "b7e5d33beb9956ce64031b5f7d813197ba8460325352fa0a6217c7ee8121bb67",
+    "binaryFeaturesVerified": true,
+    "zipIntegrityVerified": true,
+    "deliveryPath": "D:\\Flutter\\work\\named_csv_20261018\\my-accounting-20261019-arm64.apk"
+  },
+  "ios": {
+    "sourcePrepared": true,
+    "nativeBuildVerified": false,
+    "physicalInstallPerformed": false
+  },
+  "completedOn": "2026-10-19",
+  "buildResourceLimits": {
+    "javaHeap": "3 GB",
+    "gradleWorkers": 2,
+    "appliedToProjectOnly": true
+  }
+}

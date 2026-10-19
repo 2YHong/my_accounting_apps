@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-19",
+  "flutterRegression": {
+    "passed": 163,
+    "skipped": 12,
+    "log": "regression.log"
+  },
+  "finalChangedTests": {
+    "passed": 12,
+    "log": "final-client-check.log"
+  },
+  "server": {
+    "checksPassed": 31,
+    "version": "0.40.5",
+    "realExternalMailSent": false,
+    "productionChanged": false
+  },
+  "androidApkBuiltThisTurn": false,
+  "physicalDeviceTested": false,
+  "iosBuilt": false,
+  "voice": {
+    "implementationChanged": false,
+    "proposal": "docs/轻量语音与图片记账方案-20261019.md"
+  },
+  "remainingSetup": [
+    "configure 163 SMTP in PocketBase and test real delivery",
+    "install prepared mail server hooks and verification policy",
+    "run updated Flutter project or build an APK before physical testing"
+  ]
+}
